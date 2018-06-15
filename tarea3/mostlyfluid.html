@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+    .anchura {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+    .columna1{width: 100%;}
+    .columna2{width: 50%;}
+    .columna3{width: 50%;}
+
+    @media (max-width: 575.98px) {
+      .columna2,
+      .columna3{
+        width: 100%;
+      }
+    }
+
+
+
+    .azul{background: blue;}
+    .verde{background: green;}
+    .amarillo{background: yellow;}
+
+    </style>
+    <title>1</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <section class="columna1 azul">Sección 1</section>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <section class="columna2 verde">Sección 2</section>
+        <section class="columna3 amarillo">Sección 3</section>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
